@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=B612+Mono&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Conceito Eventos</title>
     <style>
       .bg-gradient { background: linear-gradient(55deg, #320800, purple);}
       .img-redonda { border-radius: 50%;}
@@ -56,45 +57,98 @@
         </div>
       </nav>      
     </header>
-    <section>
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/slider1.jpeg" alt="Primeiro Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/slider2.jpeg" alt="Segundo Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/slider3.jpeg" alt="Terceiro Slide">
+    <section class="container-fluid px-0">
+      <div class="row no-gutters">
+        <div class="col-sm-12">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slider1.jpeg" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/slider2.jpeg" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/slider3.jpeg" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
       </div>
     </section>
     <main>
       <section>
-        <div class="row">
+        <div class="row container-fluid">
           <div class="col-sm-12 text-center p-4">
-            <h1>Produtos</h1>
+            <h1>Eventos</h1>
           </div>
         </div>
+        <div class="row d-flex justify-content-center p-3">
 
-        <div></div>
+          <article class="col-sm-4 my-3">
+            <div class="card " style="width: 100%;">
+              <img src="img/card1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Formatura</h5>
+                <p class="card-text">Um momento marcante para uma data inesquecível.</p>
+                <a href="#" class="btn btn btn-outline-info">Solicitar orçamento</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-4 my-3">
+            <div class="card" style="width: 100%;">
+              <img src="img/card2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">15 anos</h5>
+                <p class="card-text">O aniversário inesquecível como você sempre sonhou!</p>
+                <a href="#" class="btn btn btn-outline-info">Solicitar orçamento</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-4 my-3">
+            <div class="card" style="width: 100%;">
+              <img src="img/card3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Casamentos</h5>
+                <p class="card-text">Um dia para não se preocupar com nada além do amor.</p>
+                <a href="#" class="btn btn btn-outline-info">Solicitar orçamento</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
       </section>
     </main>
-
+    <section class="bg-dark text-white py-3">
+      <div class="row container-fluid">
+        <div class="col-sm-12 text-center">
+          <h2>Mais informações</h2>
+        </div>
+      </div>
+      <div class="row container-fluid">
+        <div class="col-sm-6">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/vaN14vNtgK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-6" >
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.1931059087615!2d-52.318733049523324!3d-31.76521868119754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511b56bcd47e989%3A0xb734c4d179d27955!2sPARQUE+UNA!5e0!3m2!1spt-PT!2sbr!4v1561081160666!5m2!1spt-PT!2sbr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+   
 
     <!-- jQuery, Popper.js, Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
-</html> s
+</html> 

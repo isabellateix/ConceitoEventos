@@ -92,40 +92,90 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center p-3">
-
           <article class="col-sm-4 my-3">
             <div class="card " style="width: 100%;">
               <img src="img/card1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Formatura</h5>
                 <p class="card-text">Um momento marcante para uma data inesquecível.</p>
-                <a href="#" class="btn btn btn-outline-info">Solicitar orçamento</a>
+                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#ModalFormatura">Soliticar orçamento</button>
               </div>
             </div>
           </article>
-
           <article class="col-sm-4 my-3">
             <div class="card" style="width: 100%;">
               <img src="img/card2.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">15 anos</h5>
                 <p class="card-text">O aniversário inesquecível como você sempre sonhou!</p>
-                <a href="#" class="btn btn btn-outline-info">Solicitar orçamento</a>
+                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#Modal15anos">Soliticar orçamento</button>
               </div>
             </div>
           </article>
-
           <article class="col-sm-4 my-3">
             <div class="card" style="width: 100%;">
               <img src="img/card3.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Casamentos</h5>
                 <p class="card-text">Um dia para não se preocupar com nada além do amor.</p>
-                <a href="#" class="btn btn btn-outline-info">Solicitar orçamento</a>
+                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#ModalCasamento">Soliticar orçamento</button>
               </div>
             </div>
           </article>
-
+        </div>
+        <div class="modal fade" id="ModalFormatura" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Formatura</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Precisando de um orçamento para sua formatura? Entre em contato!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info">Entrar em contato</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="Modal15anos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">15 anos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Precisando de um orçamento para sua festa de 15 anos? Entre em contato!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info">Entrar em contato</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="ModalCasamento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Casamento</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Precisando de um orçamento para sua festa de casamento? Entre em contato!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info">Entrar em contato</button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
